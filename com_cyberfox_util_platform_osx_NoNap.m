@@ -5,10 +5,10 @@
 
 /*
  * Class:     com_cyberfox_jbidwatcher_osx_NoNap
- * Method:    dontNapMeBro
+ * Method:    DontNapMeBro
  * Signature: ()V
  */
-JNIEXPORT void JNICALL Java_com_cyberfox_util_platform_osx_NoNap_nativedontNapMeBro
+JNIEXPORT void JNICALL Java_com_cyberfox_util_platform_osx_NoNap_nativeDontNapMeBro
   (JNIEnv * env, jclass javaClass) 
 {
   if ([[NSProcessInfo processInfo] respondsToSelector:@selector(beginActivityWithOptions:reason:)]) {
