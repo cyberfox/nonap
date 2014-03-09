@@ -1,3 +1,5 @@
 com/
 *.o
 *.jnilib
+*~
+*.jar
