@@ -1,4 +1,4 @@
-This is a simple JNI library to disable App Nap on OS X 10.9.
+This is a simple JNI library to disable App Nap on OS X 10.9 (Mavericks), 10.10 (Yosemite) and theoretically any later version.
 
 You need to include both nonap.jar and libNoNap.jnilib in your
 classpath, preferably Contents/Resources/Java and referenced in your
